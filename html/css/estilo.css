@@ -1,0 +1,41 @@
+body {
+    background: linear-gradient(#ffffff, #21496b);
+    font-family: "Roboto", sans-serif;
+}
+
+.grid-header-container {
+    display:  grid;
+    grid-template-columns: auto;
+    text-align: center;
+    gap: 10px;
+}
+
+
+
+.menu-opcoes ul {
+    font-size: 15px;
+    text-align: center;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+fieldset { 
+    gap: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.button-email {
+    font-size: 12px;
+}
+
+.article {
+    text-align: center;
+}
+
+.footer-btn {
+    text-align: center;
+}
